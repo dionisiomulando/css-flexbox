@@ -1,0 +1,22 @@
+
+/*
+O display: flex - é usado apenas em elementos pai(contentor)
+Antes de usar o flex-direction tem de colocar o display: flex
+Exitem 4 configurações para o fex-derection
+1 - flex-direction: row;-> - esté é o padrão(row - é linha em portugues).
+2 - flex-direction: row-reverse <-
+3 - flex-direction: column; (Cima para Baixo)
+4 - flex-direction: column-reverse (baixo para cima)
+*/
+div.contentor{
+    background-color: #2b1010;
+    display: flex;
+    flex-direction: row;
+}
+div.item1{
+    background-color: #045050;
+    padding: 2px;
+    border: 1px solid black;
+    text-align: center;
+    flex: auto;
+}
