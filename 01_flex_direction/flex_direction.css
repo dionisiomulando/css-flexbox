@@ -1,0 +1,14 @@
+
+.contentor{
+    background-color: lightblue;
+    display: flex;
+    flex-direction: row;/* (padrão): Itens em linha (esquerda → direita).*/ 
+    flex-direction: row-reverse;/*Itens em linha invertida (direita → esquerda).*/
+    flex-direction: column;/*Itens em coluna (topo → base).*/
+    flex-direction: column-reverse;/*Coluna invertida (base → topo).*/
+}
+.item1{
+    background-color: lightgreen;
+    border: 1px solid #f5c988;
+    padding: 10px;   
+}

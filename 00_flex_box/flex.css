@@ -1,0 +1,10 @@
+
+.contentor{
+    background-color: lightblue;
+    display: flex;
+}
+.item1{
+    background-color: lightgreen;
+    border: 1px solid #f5c988;
+    padding: 10px;   
+}

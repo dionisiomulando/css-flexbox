@@ -1,0 +1,16 @@
+
+.contentor{
+    background-color: lightblue;
+    display: flex;
+    justify-content: flex-start;/*Itens alinhados no início (padrão)*/
+    justify-content: flex-end;/*Itens alinhados no final*/
+    justify-content: center;/*Centralizados.*/
+    justify-content: space-between; /*Espaço igual entre os itens.*/
+    justify-content: space-around;/*Espaço igual ao redor dos itens.*/
+    justify-content: space-evenly;/*Espaço igual entre e ao redor.*/
+}
+.item1{
+    background-color: lightgreen;
+    border: 1px solid #f5c988;
+    padding: 10px;   
+}
